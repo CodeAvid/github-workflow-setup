@@ -1,10 +1,9 @@
-name: worflow-2
+name: workflow-2
 run-name: run workflow-2
 
 on:
   workflow_run:
-    workflows:
-      - "workflow-1"
+    workflows: ["workflow-1"]
     types:
       - completed
 jobs:
