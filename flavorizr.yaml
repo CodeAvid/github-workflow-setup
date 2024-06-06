@@ -1,0 +1,25 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  prod:
+    app:
+      name: "Skynet"
+
+    android:
+      applicationId: "com.skynet.app"
+    ios:
+      bundleId: "com.skynet.app"
+
+  qa:
+    app:
+      name: "Skynet QA"
+
+    android:
+      applicationId: "com.skynet.app.qa"
+    ios:
+      bundleId: "com.skynet.app.qa"
+
+
+ide: idea
