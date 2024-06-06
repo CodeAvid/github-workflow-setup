@@ -17,7 +17,7 @@ jobs:
         run: bats --version
         with:
           version: '1.2.3'
-      - name: Run local hello world action
-        uses: ./.github/actions/hello-world
-        with:
-          who-to-greet: 'Benjamin Button'
+#      - name: Run local hello world action
+#        uses: ./.github/actions/hello-world
+#        with:
+#          who-to-greet: 'Benjamin Button'
