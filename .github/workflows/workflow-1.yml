@@ -5,7 +5,6 @@ jobs:
   job1:
     name: Add 3 and 7
     runs-on: ubuntu-latest
-    needs: check-bats-version
     steps:
       - shell: bash
         run: expr 3 + 7 > math-homework.txt
