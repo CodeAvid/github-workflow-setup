@@ -1,4 +1,4 @@
-name: ≈
+name: workflow-1
 run-name: ${{ github.actor }} is running math operations
 on: [push]
 jobs:
